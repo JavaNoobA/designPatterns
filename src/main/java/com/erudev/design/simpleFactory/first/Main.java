@@ -1,4 +1,4 @@
-package com.erudev.design.simpleFactory;
+package com.erudev.design.simpleFactory.first;
 
 import java.io.Console;
 import java.util.Scanner;
@@ -22,6 +22,6 @@ public class Main {
                 break;
             }
         }
-        System.out.println("计算结果为 = " + Operation.getResult(numA, numB, operator));
+        System.out.println("计算结果为 = " + com.erudev.design.simpleFactory.Operation.getResult(numA, numB, operator));
     }
 }
