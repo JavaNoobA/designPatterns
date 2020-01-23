@@ -5,19 +5,19 @@ package com.erudev.design.strategy.shopping;
  * Created by eru on 2020/1/23.
  */
 public class CashFactory {
-    public static CashSuper createCash(String condition){
-        CashSuper cs = null;
+    public static CashContext createCash(String condition){
+        CashContext cc = null;
         switch (condition){
             case "正常收费":
-                cs = new CashNormal();
+                cc = new CashContext(new CashNormal());
                 break;
             case "满300返100":
-                cs = new CashReturn("300", "100");
+                cc = new CashContext(new CashReturn("300", "100"));
                 break;
             case "打8折":
-                cs = new CashRebate("0.8");
+                cc = new CashContext(new CashRebate("0.8"));
                 break;
         }
-        return cs;
+        return cc;
     }
 }

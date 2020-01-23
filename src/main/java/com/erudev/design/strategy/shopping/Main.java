@@ -6,8 +6,8 @@ package com.erudev.design.strategy.shopping;
  */
 public class Main {
     public static void main(String[] args) {
-        CashSuper cs = CashFactory.createCash("打8折");
-        double result = cs.acceptCash(300);
+        CashContext cc = CashFactory.createCash("打8折");
+        double result = cc.getResult(300);
         System.out.println("result = " + result);
     }
 }
