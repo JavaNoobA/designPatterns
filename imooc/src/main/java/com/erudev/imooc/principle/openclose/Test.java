@@ -1,4 +1,4 @@
-package com.erudev.imooc.openclose;
+package com.erudev.imooc.principle.openclose;
 
 /**
  * Created by eru on 2020/1/27.
