@@ -1,4 +1,4 @@
-package com.erudev.design.simpleFactory;
+package com.erudev.design.simpleFactory.first;
 
 /**
  * Created by eru on 2020/1/23.

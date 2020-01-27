@@ -1,4 +1,4 @@
-package com.erudev.design.strategy.shopping;
+package com.erudev.design.shopping;
 
 /**
  * 客户端程序

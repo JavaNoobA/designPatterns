@@ -1,4 +1,4 @@
-package com.erudev.design.strategy.shopping;
+package com.erudev.design.shopping;
 
 /**
  * Created by eru on 2020/1/23.

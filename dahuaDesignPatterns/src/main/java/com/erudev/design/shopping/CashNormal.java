@@ -1,4 +1,4 @@
-package com.erudev.design.strategy.shopping;
+package com.erudev.design.shopping;
 
 /**
  * 正常收费子类

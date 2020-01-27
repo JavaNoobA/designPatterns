@@ -1,6 +1,5 @@
 package com.erudev.design.simpleFactory.first;
 
-import java.io.Console;
 import java.util.Scanner;
 
 /**
