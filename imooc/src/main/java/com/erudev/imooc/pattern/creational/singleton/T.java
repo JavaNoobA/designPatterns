@@ -6,7 +6,8 @@ package com.erudev.imooc.pattern.creational.singleton;
 public class T implements Runnable {
     @Override
     public void run() {
-        LazySingleton instance = LazySingleton.getInstance();
+        //LazySingleton instance = LazySingleton.getInstance();
+        LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();
         System.out.println(Thread.currentThread().getName() + " " + instance);
     }
 }
