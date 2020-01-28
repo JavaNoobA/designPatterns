@@ -1,9 +1,9 @@
-package com.erudev.imooc.creational.simplefactory;
+package com.erudev.imooc.pattern.creational.factorymethod;
 
 /**
  * Created by eru on 2020/1/27.
  */
-public class JavaCourse extends Course{
+public class JavaCourse extends Course {
     @Override
     public String getCourse() {
         return "Java Course";
